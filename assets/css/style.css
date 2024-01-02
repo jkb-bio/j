@@ -11,6 +11,12 @@ p,
   font-family: 'Encode Sans Expanded', sans-serif;
 }
 
+h1 {
+  color: white;
+  text-shadow: 0 0 8px white;
+  font-family: 'Encode Sans Expanded', sans-serif;
+}
+
 .bg-image {
   background-image: url('../img/background.gif');
 
