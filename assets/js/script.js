@@ -48,7 +48,7 @@ function startIntroTyping() {
 function typerStartTyping(typer) {
   typer.reset();
 
-  let text = ['lua developer', 'owner @ knives.lag.tf', 'web developer', 'game developer'];
+  let text = ['lua developer', 'owner @ knives.lol', 'web developer', 'game developer'];
 
   text.forEach(function (language, index) {
     typer.move(null);
