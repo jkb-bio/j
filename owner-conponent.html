@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .owner-img {
+            width: 50px;
+            height: auto;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .speech-bubble {
+            position: absolute;
+            background-color: rgb(255, 238, 0);
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            padding: 5px;
+            border-radius: 5px;
+            top: 50px; /* Adjust the value to position the speech bubble lower */
+            left: 10px;
+            display: none;
+        }
+
+        .owner-img:hover .speech-bubble {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="owner-img">
+        <img src="owner.png" alt="Premium" width="50" height="auto">
+        <div class="speech-bubble">owner</div>
+    </div>
+</body>
+</html>
