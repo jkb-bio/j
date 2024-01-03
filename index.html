@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,8 +24,10 @@
         </span>
       </div>
       <div class="iframe-container">
-        <iframe src="owner-component.html" width="50%" height="100" frameborder="0"></iframe>
-        <iframe src="premium-component.html" width="50%" height="100" frameborder="0"></iframe>
+        <div style="display: flex">
+          <iframe src="owner-component.html" style="flex: 1; border: none;"></iframe>
+          <iframe src="premium-component.html" style="flex: 1; border: none;"></iframe>
+        </div>
       </div>
     </div>
 
@@ -34,4 +37,9 @@
       <img src="assets/img/discord-512.png" class="social-logo" onclick="openSocial('discord')"></img>
     </div>
   </div>
+
+  <script src="https://unpkg.com/typeit@8.0.1/dist/index.umd.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="assets/js/script.js"></script>
 </body>
+</html>
