@@ -43,10 +43,23 @@
           <p id="subtext"></p>
         </span>
         <div class="iframe-container">
-          <iframe src="owner-component.html" height="100" frameborder="0"></iframe>
-          <iframe src="premium-component.html" height="100" frameborder="0"></iframe>
-        </div>
-      </div>
+  <!-- Content of premium-component.html -->
+  <link rel="import" href="premium-component.html">
+  <dom-module id="premium-component">
+    <template>
+      <!-- Content of premium-component.html goes here -->
+    </template>
+  </dom-module>
+
+  <!-- Content of owner-component.html -->
+  <link rel="import" href="owner-component.html">
+  <dom-module id="owner-component">
+    <template>
+      <!-- Content of owner-component.html goes here -->
+    </template>
+  </dom-module>
+</div>
+
       
       <!--footer embed for home screen--!>
       <div class="footer">
